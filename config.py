@@ -14,7 +14,7 @@ APP_ID = int(os.environ.get("APP_ID", "15632468"))
 API_HASH = os.environ.get("API_HASH", "7a04ff897be93d5e6b44ed6a09e1fad7")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "2149751072")) # give admin rights all fouth channels ( add yr bot into yr channels)
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002149751072")) # give admin rights all fouth channels ( add yr bot into yr channels)
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5056127557"))
@@ -28,10 +28,10 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Cluser10")
 # force sub channel id, if you want enable force sub
 # give admin rights all fouth channels ( add yr bot into yr channels)
 
-FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "1977673512"))
-FORCE_SUB_CHANNEL_2 = int(os.environ.get("FORCE_SUB_CHANNEL_2", "1775883782"))
-FORCE_SUB_CHANNEL_3 = int(os.environ.get("FORCE_SUB_CHANNEL_3", "1698555506"))
-FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "1749913674"))
+FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1001775883782"))
+FORCE_SUB_CHANNEL_2 = int(os.environ.get("FORCE_SUB_CHANNEL_2", "-1001749913674"))
+FORCE_SUB_CHANNEL_3 = int(os.environ.get("FORCE_SUB_CHANNEL_3", "-1001925596947"))
+FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "-1001698555506"))
 
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
